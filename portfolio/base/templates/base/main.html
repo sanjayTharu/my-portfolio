@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sanjay Chaudhary</title>
+    <script>
+        window.datalayer=window.datalayer||[];
+        function gtag(){datalayer.push(arguments);}
+        gtag('js',new Date());
+        gtag('config','UA-47692315-56');
+        
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+" crossorigin="anonymous">
+
+        {% load static %}
+
+
+</head>
+
+<body>
+    {% include 'base/navbar.html' %}
+    {% block content %}
+    <!-- content goes here -->
+    {% endblock content %}
+</body>
+</html>
